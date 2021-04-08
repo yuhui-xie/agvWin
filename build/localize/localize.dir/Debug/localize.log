@@ -1,0 +1,26 @@
+﻿生成启动时间为 2021/3/28 17:55:17。
+     1>项目“D:\agv-combine -target -new\build\localize\localize.vcxproj”在节点 8 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/agv-combine -target -new/localize/CMakeLists.txt
+       ClCompile:
+         D:\Software\vs2013\VC\bin\CL.exe /c /I"D:\agv-combine -target -new\AGVtoolkit2013\include" /I"D:\agv-combine -target -new\msg" /I"D:\agv-combine -target -new\slam" /I"D:\agv-combine -target -new" /I"D:\agv-combine -target -new\localize" /Zi /nologo /W1 /WX- /Od /Ob0 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"localize.dir\Debug\\" /Fd"localize.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  /Mt "D:\agv-combine -target -new\localize\localize.cpp"
+     1>cl : 命令行 warning D9002: 忽略未知选项“/Mt”
+         localize.cpp
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         D:\Software\vs2013\VC\bin\CL.exe /c /I"D:\agv-combine -target -new\AGVtoolkit2013\include" /I"D:\agv-combine -target -new\msg" /I"D:\agv-combine -target -new\slam" /I"D:\agv-combine -target -new" /I"D:\agv-combine -target -new\localize" /Zi /nologo /W1 /WX- /Od /Ob0 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"localize.dir\Debug\\" /Fd"localize.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt  /Mt "D:\agv-combine -target -new\localize\particlefilter\likelihood_map.c" "D:\agv-combine -target -new\localize\particlefilter\localize_motion.c" "D:\agv-combine -target -new\localize\particlefilter\localizecore.c"
+     1>cl : 命令行 warning D9002: 忽略未知选项“/Mt”
+         likelihood_map.c
+         localize_motion.c
+         localizecore.c
+         正在生成代码...
+       Lib:
+         D:\Software\vs2013\VC\bin\Lib.exe /OUT:"D:\agv-combine -target -new\bin\lib\Debug\localize.lib" /NOLOGO  /machine:X86 localize.dir\Debug\localize.obj
+         localize.dir\Debug\likelihood_map.obj
+         localize.dir\Debug\localize_motion.obj
+         localize.dir\Debug\localizecore.obj
+         localize.vcxproj -> D:\agv-combine -target -new\bin\lib\Debug\localize.lib
+     1>已完成生成项目“D:\agv-combine -target -new\build\localize\localize.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.81

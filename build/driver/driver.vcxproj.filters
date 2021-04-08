@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\agv-combine -target -new\driver\motion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\agv-combine -target -new\driver\Laser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\agv-combine -target -new\driver\net\sockets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\agv-combine -target -new\driver\LaserSrc\Urg_driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\agv-combine -target -new\driver\LaserSrc\ticks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\agv-combine -target -new\driver\LaserSrc\urg_connection.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\agv-combine -target -new\driver\LaserSrc\urg_debug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\agv-combine -target -new\driver\LaserSrc\urg_ring_buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\agv-combine -target -new\driver\LaserSrc\urg_sensor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\agv-combine -target -new\driver\LaserSrc\urg_serial.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\agv-combine -target -new\driver\LaserSrc\urg_serial_utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\agv-combine -target -new\driver\LaserSrc\urg_tcpclient.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\agv-combine -target -new\driver\LaserSrc\urg_utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\agv-combine -target -new\driver\Laser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\agv-combine -target -new\driver\LaserSrc\Lidar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\agv-combine -target -new\driver\LaserSrc\Urg_driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\agv-combine -target -new\driver\LaserSrc\detect_os.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\agv-combine -target -new\driver\LaserSrc\math_utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\agv-combine -target -new\driver\LaserSrc\ticks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\agv-combine -target -new\driver\LaserSrc\urg_connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\agv-combine -target -new\driver\LaserSrc\urg_debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\agv-combine -target -new\driver\LaserSrc\urg_detect_os.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\agv-combine -target -new\driver\LaserSrc\urg_errno.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\agv-combine -target -new\driver\LaserSrc\urg_ring_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\agv-combine -target -new\driver\LaserSrc\urg_sensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\agv-combine -target -new\driver\LaserSrc\urg_serial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\agv-combine -target -new\driver\LaserSrc\urg_serial_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\agv-combine -target -new\driver\LaserSrc\urg_tcpclient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\agv-combine -target -new\driver\LaserSrc\urg_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\agv-combine -target -new\driver\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{838C963D-4FE9-3E3F-A60F-58EAC068B968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A442F824-D6BC-34A0-B91B-DD803B4F20E9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

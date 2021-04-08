@@ -1,0 +1,15 @@
+d:\agv-combine -target -new\build\slam\scanmatcher.dir\release\eig3.obj
+d:\agv-combine -target -new\build\slam\scanmatcher.dir\release\scanmatcherprocessor.obj
+d:\agv-combine -target -new\build\slam\scanmatcher.dir\release\scanmatcher.obj
+d:\agv-combine -target -new\build\slam\scanmatcher.dir\release\smmap.obj
+d:\agv-combine -target -new\build\slam\cmakefiles\generate.stamp
+d:\agv-combine -target -new\bin\lib\release\scanmatcher.lib
+d:\agv-combine -target -new\build\slam\scanmatcher.dir\release\scanmatcher.tlog\cl.command.1.tlog
+d:\agv-combine -target -new\build\slam\scanmatcher.dir\release\scanmatcher.tlog\cl.read.1.tlog
+d:\agv-combine -target -new\build\slam\scanmatcher.dir\release\scanmatcher.tlog\cl.write.1.tlog
+d:\agv-combine -target -new\build\slam\scanmatcher.dir\release\scanmatcher.tlog\custombuild.command.1.tlog
+d:\agv-combine -target -new\build\slam\scanmatcher.dir\release\scanmatcher.tlog\custombuild.read.1.tlog
+d:\agv-combine -target -new\build\slam\scanmatcher.dir\release\scanmatcher.tlog\custombuild.write.1.tlog
+d:\agv-combine -target -new\build\slam\scanmatcher.dir\release\scanmatcher.tlog\lib-link.read.1.tlog
+d:\agv-combine -target -new\build\slam\scanmatcher.dir\release\scanmatcher.tlog\lib-link.write.1.tlog
+d:\agv-combine -target -new\build\slam\scanmatcher.dir\release\scanmatcher.tlog\lib.command.1.tlog

@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{45E8AE9D-D2B5-3462-BEFA-8CF55D5BB5D7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>robot</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\agv-combine -target -new\bin\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">robot.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">robot</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\agv-combine -target -new\bin\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">robot.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">robot</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\agv-combine -target -new\bin\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">robot.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">robot</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\agv-combine -target -new\bin\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">robot.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">robot</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Mt</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Mt</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Mt</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Mt</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\agv-combine -target -new\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/agv-combine -target -new/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\Software\CMake\cmake-3.18.6-win64-x64\bin\cmake.exe "-SD:/agv-combine -target -new" "-BD:/agv-combine -target -new/build" --check-stamp-file "D:/agv-combine -target -new/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\agv-combine -target -new\AGV.cmake;D:\agv-combine -target -new\build\CMakeFiles\3.18.6\CMakeCCompiler.cmake;D:\agv-combine -target -new\build\CMakeFiles\3.18.6\CMakeCXXCompiler.cmake;D:\agv-combine -target -new\build\CMakeFiles\3.18.6\CMakeRCCompiler.cmake;D:\agv-combine -target -new\build\CMakeFiles\3.18.6\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\agv-combine -target -new\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/agv-combine -target -new/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\Software\CMake\cmake-3.18.6-win64-x64\bin\cmake.exe "-SD:/agv-combine -target -new" "-BD:/agv-combine -target -new/build" --check-stamp-file "D:/agv-combine -target -new/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\agv-combine -target -new\AGV.cmake;D:\agv-combine -target -new\build\CMakeFiles\3.18.6\CMakeCCompiler.cmake;D:\agv-combine -target -new\build\CMakeFiles\3.18.6\CMakeCXXCompiler.cmake;D:\agv-combine -target -new\build\CMakeFiles\3.18.6\CMakeRCCompiler.cmake;D:\agv-combine -target -new\build\CMakeFiles\3.18.6\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\agv-combine -target -new\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/agv-combine -target -new/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\Software\CMake\cmake-3.18.6-win64-x64\bin\cmake.exe "-SD:/agv-combine -target -new" "-BD:/agv-combine -target -new/build" --check-stamp-file "D:/agv-combine -target -new/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\agv-combine -target -new\AGV.cmake;D:\agv-combine -target -new\build\CMakeFiles\3.18.6\CMakeCCompiler.cmake;D:\agv-combine -target -new\build\CMakeFiles\3.18.6\CMakeCXXCompiler.cmake;D:\agv-combine -target -new\build\CMakeFiles\3.18.6\CMakeRCCompiler.cmake;D:\agv-combine -target -new\build\CMakeFiles\3.18.6\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\agv-combine -target -new\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/agv-combine -target -new/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\Software\CMake\cmake-3.18.6-win64-x64\bin\cmake.exe "-SD:/agv-combine -target -new" "-BD:/agv-combine -target -new/build" --check-stamp-file "D:/agv-combine -target -new/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Software\CMake\cmake-3.18.6-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\agv-combine -target -new\AGV.cmake;D:\agv-combine -target -new\build\CMakeFiles\3.18.6\CMakeCCompiler.cmake;D:\agv-combine -target -new\build\CMakeFiles\3.18.6\CMakeCXXCompiler.cmake;D:\agv-combine -target -new\build\CMakeFiles\3.18.6\CMakeRCCompiler.cmake;D:\agv-combine -target -new\build\CMakeFiles\3.18.6\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\agv-combine -target -new\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\agv-combine -target -new\robot.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\agv-combine -target -new\build\ZERO_CHECK.vcxproj">
+      <Project>{9164619B-68B2-3D8F-AF1F-1E67EBBDE38D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\agv-combine -target -new\build\driver\driver.vcxproj">
+      <Project>{B29A333E-DC45-39F9-98E1-6CD93418DD9E}</Project>
+      <Name>driver</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\agv-combine -target -new\build\stdmsg.vcxproj">
+      <Project>{7B6A2883-222E-3A94-99AC-AE44644CF70A}</Project>
+      <Name>stdmsg</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

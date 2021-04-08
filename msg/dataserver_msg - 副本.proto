@@ -1,0 +1,51 @@
+package dataserver_msg;
+
+message Position
+{
+	required double x = 1;
+	required double y = 2;
+	optional double theta = 3;
+}
+
+message Velocity
+{
+	required double v = 1[default=0];
+	required double w = 2[default=0];
+	optional double v2 = 3[default=0];
+}
+																			//CMD_ID
+message Control_CMD //from HMI to Motion Control
+{
+	message Init_Config
+	{
+		optional double stop_delta_distance = 1;
+		optional double stop_delta_theta = 2;
+		optional double nav_v = 3;
+		optional double nav_w = 4;
+	}
+
+	required int32 CMD_ID = 1;
+	//optional int32 Goal_ID = 2;												//0
+	optional Position Goal_pose = 2;
+	optional Velocity velocity = 3;	//need to set safetime					//-1
+	optional int32 move_mode = 4;//goal mode =1, velocity mode =2, stop=0	//0,-1
+	//optional int32 client_type = 5;//HMI = 0, tele = 1						//0,-1
+	optional Init_Config init_cfg = 6;// set some cfg to .exe				//-2
+}
+
+message Response_CMD  //from Motion Control to HMI
+{
+	message Response_flag
+	{
+		optional int32 cmd_received_flag = 1 [default=-1];
+		optional int32 path_formed_flag = 2 [default=-1];
+		optional int32 goal_reached_flag = 3 [default=-1];
+		optional int32 Error_ID = 4 [default=-1];
+	}
+
+	required int32 CMD_ID = 1;
+	optional Response_flag response_flags = 2;								//0
+	optional Position robot_position = 3;									//-3
+	optional int32 battery_capacity = 4 [default = -1];						//-4
+	optional int32 charging_flag = 5;										//-4
+}

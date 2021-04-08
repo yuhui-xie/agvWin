@@ -1,0 +1,148 @@
+﻿生成启动时间为 2021/3/28 17:55:22。
+     1>项目“D:\agv-combine -target -new\build\slam\slam.vcxproj”在节点 9 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/agv-combine -target -new/slam/CMakeLists.txt
+       ClCompile:
+         D:\Software\vs2013\VC\bin\CL.exe /c /I"D:\agv-combine -target -new\AGVtoolkit2013\include" /I"D:\agv-combine -target -new\msg" /I"D:\agv-combine -target -new\slam" /I"D:\agv-combine -target -new" /I"D:\agv-combine -target -new\slam\utils" /I"D:\agv-combine -target -new\slam\sensor" /I"D:\agv-combine -target -new\slam\log" /I"D:\agv-combine -target -new\slam\configfile" /I"D:\agv-combine -target -new\slam\scanmatcher" /Zi /nologo /W1 /WX- /Od /Ob0 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D slam_EXPORTS /D _WINDLL /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"slam.dir\Debug\\" /Fd"slam.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  -O3 "D:\agv-combine -target -new\slam\slam.cpp" "D:\agv-combine -target -new\msg\stdmsg.cc"
+     1>cl : 命令行 warning D9002: 忽略未知选项“-O3”
+         slam.cpp
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         stdmsg.cc
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>D:\Software\vs2013\VC\include\xutility(2132): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 D:\Software\vs2013\VC\include\xutility(2113) : 参见“std::_Copy_impl”的声明
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1316): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const Element*,Element*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=google::protobuf::uint64 *
+         ,            Element=google::protobuf::uint64
+         ,            _InIt=const google::protobuf::uint64 *
+                 ]
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1315): 编译类 模板 成员函数“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element *,const Element *,int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1308): 参见对正在编译的函数 模板 实例化“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element *,const Element *,int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1308): 参见对正在编译的类 模板 实例化“google::protobuf::internal::ElementCopier<Element,false>”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1307): 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element *,const Element *,int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1302): 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element *,const Element *,int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1301): 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element *,Element *,int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1275): 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element *,Element *,int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1239): 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::Reserve(int)”时
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1079): 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::Reserve(int)”的引用
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1024): 编译类 模板 成员函数“int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const”时
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/wire_format_lite_inl.h(278): 参见对正在编译的函数 模板 实例化“int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const”的引用
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/wire_format_lite_inl.h(258): 参见对正在编译的类 模板 实例化“google::protobuf::RepeatedField<google::protobuf::uint64>”的引用
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/wire_format_lite_inl.h(311): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::uint64> *)”的引用
+                 D:\Software\vs2013\VC\include\xutility(2113) : 参见“std::_Copy_impl”的声明
+         正在生成代码...
+       Link:
+         D:\Software\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\agv-combine -target -new\bin\Debug\slam.dll" /INCREMENTAL /NOLOGO /LIBPATH:"D:/agv-combine -target -new/bin/lib" /LIBPATH:"D:/agv-combine -target -new/bin/lib/Debug" /LIBPATH:"D:/agv-combine -target -new" /LIBPATH:"D:/agv-combine -target -new/Debug" /LIBPATH:"D:/agv-combine -target -new/AGVtoolkit2013/lib" /LIBPATH:"D:/agv-combine -target -new/AGVtoolkit2013/lib/Debug" ..\..\bin\lib\Debug\gridfastslam.lib ..\..\bin\lib\Debug\scanmatcher.lib ..\..\bin\lib\Debug\configfile.lib ..\..\bin\lib\Debug\log.lib ..\..\bin\lib\Debug\sensor.lib ..\..\bin\lib\Debug\utils.lib node.lib node.lib libprotobuf.lib libzmq.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/agv-combine -target -new/bin/Debug/slam.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/agv-combine -target -new/bin/lib/Debug/slam.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /DLL slam.dir\Debug\slam.obj
+         slam.dir\Debug\stdmsg.obj
+     1>node.lib(image.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>node.lib(image.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>node.lib(configfile.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>node.lib(configfile.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(common.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(common.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(arena.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(arena.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(repeated_field.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(repeated_field.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(once.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(once.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(generated_message_util.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(generated_message_util.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(arenastring.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(arenastring.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(unknown_field_set.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(unknown_field_set.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(message_lite.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(message_lite.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(descriptor.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(descriptor.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(message.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(message.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(coded_stream.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(coded_stream.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(wire_format_lite.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(wire_format_lite.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(generated_message_reflection.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(generated_message_reflection.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(reflection_ops.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(reflection_ops.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(wire_format.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(wire_format.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(status.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(status.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(int128.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(int128.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(atomicops_internals_x86_msvc.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(atomicops_internals_x86_msvc.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(zero_copy_stream_impl_lite.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(zero_copy_stream_impl_lite.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(descriptor_database.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(descriptor_database.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(descriptor.pb.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(descriptor.pb.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(dynamic_message.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(dynamic_message.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(text_format.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(text_format.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(strtod.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(strtod.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(tokenizer.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(tokenizer.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(stringprintf.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(stringprintf.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(strutil.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(strutil.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(substitute.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(substitute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(map_field.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(map_field.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(zero_copy_stream_impl.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(zero_copy_stream_impl.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(structurally_valid.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(structurally_valid.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(extension_set_heavy.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(extension_set_heavy.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(extension_set.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(extension_set.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(zero_copy_stream.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(zero_copy_stream.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+     1>libprotobuf.lib(any.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(slam.obj 中)
+     1>libprotobuf.lib(any.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(slam.obj 中)
+            正在创建库 D:/agv-combine -target -new/bin/lib/Debug/slam.lib 和对象 D:/agv-combine -target -new/bin/lib/Debug/slam.exp
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>D:\agv-combine -target -new\bin\Debug\slam.dll : fatal error LNK1319: 检测到 74 个不匹配项
+     1>已完成生成项目“D:\agv-combine -target -new\build\slam\slam.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.49

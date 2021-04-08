@@ -1,0 +1,24 @@
+cmake_minimum_required (VERSION 2.6) 
+project (driver)
+SET(CMAKE_BUILD_TYPE Release)
+set( CMAKE_CXX_FLAGS " -O3" )
+
+option (BUILD_PYTHON_PLUGIN "whether use python as driver" OFF)
+set(BUILD_PYTHON_PLUGIN ON)
+if(BUILD_PYTHON_PLUGIN)
+    find_package(PythonLibs REQUIRED)
+    include_directories(${PYTHON_INCLUDE_DIRS})
+    link_directories(${PYTHON_LINK_DIRS})
+    add_definitions(-DPYTHON_PLUGIN)
+endif(BUILD_PYTHON_PLUGIN)
+
+
+
+AUX_SOURCE_DIRECTORY("serial" SRC)
+AUX_SOURCE_DIRECTORY("net" NETSRC)
+add_library(driver motion.cpp LaserUST.cpp ${SRC} ${NETSRC})
+if(WIN32)
+TARGET_LINK_LIBRARIES(driver    ${PYTHON_LIBRARIES})
+else(WIN32)
+TARGET_LINK_LIBRARIES(driver  ${PYTHON_LIBRARIES}  rt)
+endif(WIN32)

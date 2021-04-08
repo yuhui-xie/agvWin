@@ -1,0 +1,13 @@
+d:\agv-combine -target -new\build\slam\map2png.dir\release\main.obj
+d:\agv-combine -target -new\build\slam\map2png.dir\release\carmenmap.obj
+d:\agv-combine -target -new\build\slam\cmakefiles\generate.stamp
+d:\agv-combine -target -new\bin\release\map2png.exe
+d:\agv-combine -target -new\build\slam\map2png.dir\release\map2png.tlog\cl.command.1.tlog
+d:\agv-combine -target -new\build\slam\map2png.dir\release\map2png.tlog\cl.read.1.tlog
+d:\agv-combine -target -new\build\slam\map2png.dir\release\map2png.tlog\cl.write.1.tlog
+d:\agv-combine -target -new\build\slam\map2png.dir\release\map2png.tlog\custombuild.command.1.tlog
+d:\agv-combine -target -new\build\slam\map2png.dir\release\map2png.tlog\custombuild.read.1.tlog
+d:\agv-combine -target -new\build\slam\map2png.dir\release\map2png.tlog\custombuild.write.1.tlog
+d:\agv-combine -target -new\build\slam\map2png.dir\release\map2png.tlog\link.command.1.tlog
+d:\agv-combine -target -new\build\slam\map2png.dir\release\map2png.tlog\link.read.1.tlog
+d:\agv-combine -target -new\build\slam\map2png.dir\release\map2png.tlog\link.write.1.tlog

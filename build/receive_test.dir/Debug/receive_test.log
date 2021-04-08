@@ -1,0 +1,20 @@
+﻿生成启动时间为 2021/3/28 17:55:21。
+     1>项目“D:\agv-combine -target -new\build\receive_test.vcxproj”在节点 6 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/agv-combine -target -new/CMakeLists.txt
+       ClCompile:
+         D:\Software\vs2013\VC\bin\CL.exe /c /I"D:\agv-combine -target -new\AGVtoolkit2013\include" /I"D:\agv-combine -target -new\msg" /I"D:\agv-combine -target -new\slam" /I"D:\agv-combine -target -new" /Zi /nologo /W1 /WX- /Od /Ob0 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"receive_test.dir\Debug\\" /Fd"receive_test.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  /Mt "D:\agv-combine -target -new\test\receive_test.cpp"
+     1>cl : 命令行 warning D9002: 忽略未知选项“/Mt”
+         receive_test.cpp
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>D:\agv-combine -target -new\test\receive_test.cpp(73): error C2065: “CrThread”: 未声明的标识符
+     1>D:\agv-combine -target -new\test\receive_test.cpp(73): error C2275: “receive_test”: 将此类型用作表达式非法
+     1>D:\agv-combine -target -new\test\receive_test.cpp(73): error C2065: “nht”: 未声明的标识符
+     1>D:\agv-combine -target -new\test\receive_test.cpp(74): error C2065: “nht”: 未声明的标识符
+     1>D:\agv-combine -target -new\test\receive_test.cpp(74): error C2228: “.start”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>已完成生成项目“D:\agv-combine -target -new\build\receive_test.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.29

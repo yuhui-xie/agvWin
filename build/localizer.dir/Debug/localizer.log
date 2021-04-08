@@ -1,0 +1,27 @@
+﻿生成启动时间为 2021/3/28 17:55:25。
+     1>项目“D:\agv-combine -target -new\build\localizer.vcxproj”在节点 13 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/agv-combine -target -new/CMakeLists.txt
+       ClCompile:
+         D:\Software\vs2013\VC\bin\CL.exe /c /I"D:\agv-combine -target -new\AGVtoolkit2013\include" /I"D:\agv-combine -target -new\msg" /I"D:\agv-combine -target -new\slam" /I"D:\agv-combine -target -new" /Zi /nologo /W1 /WX- /Od /Ob0 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"localizer.dir\Debug\\" /Fd"localizer.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  /Mt "D:\agv-combine -target -new\localizer.cpp"
+     1>cl : 命令行 warning D9002: 忽略未知选项“/Mt”
+         localizer.cpp
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>d:\agv-combine -target -new\robot.h(22): warning C4005: “EXPORT”: 宏重定义
+                 d:\agv-combine -target -new\localize\icp/ICP.hpp(6) : 参见“EXPORT”的前一个定义
+     1>D:\Software\vs2013\VC\include\xutility(2132): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 D:\Software\vs2013\VC\include\xutility(2113) : 参见“std::_Copy_impl”的声明
+                 d:\agv-combine -target -new\yaml-cpp/binary.h(32): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const unsigned char*,unsigned char*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=unsigned char *
+         ,            _InIt=const unsigned char *
+                 ]
+       Link:
+         D:\Software\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\agv-combine -target -new\bin\Debug\localizer.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:/agv-combine -target -new/bin/lib" /LIBPATH:"D:/agv-combine -target -new/bin/lib/Debug" /LIBPATH:"D:/agv-combine -target -new" /LIBPATH:"D:/agv-combine -target -new/Debug" /LIBPATH:"D:/agv-combine -target -new/AGVtoolkit2013/lib" /LIBPATH:"D:/agv-combine -target -new/AGVtoolkit2013/lib/Debug" ..\bin\lib\Debug\localize.lib node.lib libprotobuf.lib libzmq.lib ..\bin\lib\Debug\robot.lib ..\bin\lib\Debug\slam.lib ..\bin\lib\Debug\stdmsg.lib icp.lib ..\bin\lib\Debug\driver.lib "D:\Python-2.7.5\libs\python27.lib" node.lib libprotobuf.lib libzmq.lib ..\bin\lib\Debug\gridfastslam.lib ..\bin\lib\Debug\scanmatcher.lib ..\bin\lib\Debug\configfile.lib ..\bin\lib\Debug\log.lib ..\bin\lib\Debug\sensor.lib ..\bin\lib\Debug\utils.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/agv-combine -target -new/bin/Debug/localizer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/agv-combine -target -new/bin/lib/Debug/localizer.lib" /MACHINE:X86 /SAFESEH  /machine:X86 localizer.dir\Debug\localizer.obj
+     1>LINK : fatal error LNK1104: 无法打开文件“..\bin\lib\Debug\driver.lib”
+     1>已完成生成项目“D:\agv-combine -target -new\build\localizer.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.39

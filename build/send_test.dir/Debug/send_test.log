@@ -1,0 +1,90 @@
+﻿生成启动时间为 2021/3/28 17:55:21。
+     1>项目“D:\agv-combine -target -new\build\send_test.vcxproj”在节点 7 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/agv-combine -target -new/CMakeLists.txt
+       ClCompile:
+         D:\Software\vs2013\VC\bin\CL.exe /c /I"D:\agv-combine -target -new\AGVtoolkit2013\include" /I"D:\agv-combine -target -new\msg" /I"D:\agv-combine -target -new\slam" /I"D:\agv-combine -target -new" /Zi /nologo /W1 /WX- /Od /Ob0 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"send_test.dir\Debug\\" /Fd"send_test.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  /Mt "D:\agv-combine -target -new\test\send_test.cpp"
+     1>cl : 命令行 warning D9002: 忽略未知选项“/Mt”
+         send_test.cpp
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+       Link:
+         D:\Software\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\agv-combine -target -new\bin\Debug\send_test.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:/agv-combine -target -new/bin/lib" /LIBPATH:"D:/agv-combine -target -new/bin/lib/Debug" /LIBPATH:"D:/agv-combine -target -new" /LIBPATH:"D:/agv-combine -target -new/Debug" /LIBPATH:"D:/agv-combine -target -new/AGVtoolkit2013/lib" /LIBPATH:"D:/agv-combine -target -new/AGVtoolkit2013/lib/Debug" node.lib libprotobuf.lib libzmq.lib ..\bin\lib\Debug\stdmsg.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/agv-combine -target -new/bin/Debug/send_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/agv-combine -target -new/bin/lib/Debug/send_test.lib" /MACHINE:X86 /SAFESEH  /machine:X86 send_test.dir\Debug\send_test.obj
+     1>node.lib(node.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>node.lib(node.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(message_lite.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(message_lite.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(common.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(common.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(arena.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(arena.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(coded_stream.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(coded_stream.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(zero_copy_stream_impl_lite.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(zero_copy_stream_impl_lite.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(once.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(once.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(status.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(status.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(int128.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(int128.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(atomicops_internals_x86_msvc.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(atomicops_internals_x86_msvc.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(zero_copy_stream.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(zero_copy_stream.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(generated_message_util.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(generated_message_util.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(arenastring.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(arenastring.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(unknown_field_set.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(unknown_field_set.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(descriptor.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(descriptor.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(message.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(message.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(repeated_field.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(repeated_field.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(wire_format_lite.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(wire_format_lite.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(generated_message_reflection.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(generated_message_reflection.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(reflection_ops.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(reflection_ops.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(wire_format.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(wire_format.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(descriptor_database.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(descriptor_database.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(descriptor.pb.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(descriptor.pb.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(dynamic_message.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(dynamic_message.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(text_format.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(text_format.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(strtod.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(strtod.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(tokenizer.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(tokenizer.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(stringprintf.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(stringprintf.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(strutil.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(strutil.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(substitute.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(substitute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(map_field.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(map_field.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(zero_copy_stream_impl.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(zero_copy_stream_impl.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(structurally_valid.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(structurally_valid.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(extension_set_heavy.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(extension_set_heavy.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(extension_set.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(extension_set.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>libprotobuf.lib(any.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(send_test.obj 中)
+     1>libprotobuf.lib(any.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(send_test.obj 中)
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>D:\agv-combine -target -new\bin\Debug\send_test.exe : fatal error LNK1319: 检测到 72 个不匹配项
+     1>已完成生成项目“D:\agv-combine -target -new\build\send_test.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.54

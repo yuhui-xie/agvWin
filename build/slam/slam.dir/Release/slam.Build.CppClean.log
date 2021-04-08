@@ -1,0 +1,16 @@
+d:\agv-combine -target -new\build\slam\slam.dir\release\stdmsg.obj
+d:\agv-combine -target -new\build\slam\slam.dir\release\slam.obj
+d:\agv-combine -target -new\build\slam\cmakefiles\generate.stamp
+d:\agv-combine -target -new\bin\release\slam.dll
+d:\agv-combine -target -new\bin\lib\release\slam.lib
+d:\agv-combine -target -new\bin\lib\release\slam.exp
+d:\agv-combine -target -new\build\slam\slam.dir\release\slam.tlog\cl.command.1.tlog
+d:\agv-combine -target -new\build\slam\slam.dir\release\slam.tlog\cl.read.1.tlog
+d:\agv-combine -target -new\build\slam\slam.dir\release\slam.tlog\cl.write.1.tlog
+d:\agv-combine -target -new\build\slam\slam.dir\release\slam.tlog\custombuild.command.1.tlog
+d:\agv-combine -target -new\build\slam\slam.dir\release\slam.tlog\custombuild.read.1.tlog
+d:\agv-combine -target -new\build\slam\slam.dir\release\slam.tlog\custombuild.write.1.tlog
+d:\agv-combine -target -new\build\slam\slam.dir\release\slam.tlog\link.command.1.tlog
+d:\agv-combine -target -new\build\slam\slam.dir\release\slam.tlog\link.read.1.tlog
+d:\agv-combine -target -new\build\slam\slam.dir\release\slam.tlog\link.write.1.tlog
+d:\agv-combine -target -new\build\slam\slam.dir\release\slam.tlog\slam.write.1u.tlog

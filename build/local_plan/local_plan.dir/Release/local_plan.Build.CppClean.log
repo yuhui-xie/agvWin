@@ -1,0 +1,12 @@
+d:\agv-combine -target -new\build\local_plan\local_plan.dir\release\local_plan.obj
+d:\agv-combine -target -new\build\local_plan\cmakefiles\generate.stamp
+d:\agv-combine -target -new\bin\lib\release\local_plan.lib
+d:\agv-combine -target -new\build\local_plan\local_plan.dir\release\local_plan.tlog\cl.command.1.tlog
+d:\agv-combine -target -new\build\local_plan\local_plan.dir\release\local_plan.tlog\cl.read.1.tlog
+d:\agv-combine -target -new\build\local_plan\local_plan.dir\release\local_plan.tlog\cl.write.1.tlog
+d:\agv-combine -target -new\build\local_plan\local_plan.dir\release\local_plan.tlog\custombuild.command.1.tlog
+d:\agv-combine -target -new\build\local_plan\local_plan.dir\release\local_plan.tlog\custombuild.read.1.tlog
+d:\agv-combine -target -new\build\local_plan\local_plan.dir\release\local_plan.tlog\custombuild.write.1.tlog
+d:\agv-combine -target -new\build\local_plan\local_plan.dir\release\local_plan.tlog\lib-link.read.1.tlog
+d:\agv-combine -target -new\build\local_plan\local_plan.dir\release\local_plan.tlog\lib-link.write.1.tlog
+d:\agv-combine -target -new\build\local_plan\local_plan.dir\release\local_plan.tlog\lib.command.1.tlog

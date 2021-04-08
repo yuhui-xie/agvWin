@@ -1,0 +1,66 @@
+//crti:2016-06-17,add follow mode, emergency_stop_flag, obstacle_forward_flag
+package dataserver_msg;
+
+message Position
+{
+	required double x = 1;
+	required double y = 2;
+	optional double theta = 3;
+	optional int32 seq = 4[default=-1];
+}
+
+message Velocity
+{
+	required double v = 1[default=0];
+	required double w = 2[default=0];
+	optional double v2 = 3[default=0];
+}
+message ChargingFlag
+{
+    optional int32 chargingFlag = 1 [default = 0];
+    optional int32 seq = 2[default=0];
+}
+message GeneralData
+{
+	optional int32 GeneralFlag = 1;	
+	optional int32 IO_Number = 2;
+}
+message Control_CMD //from HMI to Motion Control
+{
+	message Init_Config
+	{
+		optional double stop_delta_distance = 1;
+		optional double stop_delta_theta = 2;
+		optional double nav_v = 3;
+		optional double nav_w = 4;
+	}
+
+	required int32 CMD_ID = 1;
+	optional Position Goal_pose = 2;														//0
+	optional Velocity velocity = 3;	//need to set safetime									//-1
+	optional int32 move_mode = 4 [default=0];//stop=0, goal mode =1, velocity mode =2, follow mode =3	//0,-1,-5
+	optional Init_Config init_cfg = 5;// set some cfg to .exe								//-2
+	optional int32 projector = 6;															//-6
+	optional ChargingFlag cf=7;
+	optional GeneralData generalData=8;
+}
+
+message Response_CMD  //from Motion Control to HMI
+{
+	message Response_flag
+	{
+		optional int32 Error_ID = 1 [default=-1];
+		optional int32 cmd_received_flag = 2 [default=-1];
+		optional int32 path_formed_flag = 3 [default=-1];
+		optional int32 goal_reached_flag = 4 [default=-1];		
+		optional int32 emergency_stop_flag = 5 [default=-1];
+		optional int32 obstacle_forward_flag = 6 [default=-1];
+		optional int32 move_mode_flag = 7 [default=-1];
+	}
+
+	required int32 CMD_ID = 1;
+	optional Response_flag response_flags = 2;												//0,-3
+	optional Position robot_pose = 3;														//-3
+	optional int32 battery_capacity = 4 [default = -1];										//-4
+	optional int32 charging_flag = 5;														//-4
+}

@@ -1,0 +1,17 @@
+﻿生成启动时间为 2021/4/7 19:05:52。
+     1>项目“D:\agv-combine -target -new\build\localize\localize.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Software\vs2013\VC\bin\CL.exe /c /I"D:\agv-combine -target -new\AGVtoolkit2013\include" /I"D:\agv-combine -target -new\msg" /I"D:\agv-combine -target -new\slam" /I"D:\agv-combine -target -new" /I"D:\agv-combine -target -new\localize" /nologo /W1 /WX- /O2 /Ob2 /Oy- /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"localize.dir\Release\\" /Fd"localize.dir\Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt  /Mt "D:\agv-combine -target -new\localize\particlefilter\localizecore.c"
+     1>cl : 命令行 warning D9002: 忽略未知选项“/Mt”
+         localizecore.c
+       Lib:
+         D:\Software\vs2013\VC\bin\Lib.exe /OUT:"D:\agv-combine -target -new\bin\lib\Release\localize.lib" /NOLOGO  /machine:X86 localize.dir\Release\localize.obj
+         localize.dir\Release\likelihood_map.obj
+         localize.dir\Release\localize_motion.obj
+         localize.dir\Release\localizecore.obj
+         localize.vcxproj -> D:\agv-combine -target -new\bin\lib\Release\localize.lib
+     1>已完成生成项目“D:\agv-combine -target -new\build\localize\localize.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.31

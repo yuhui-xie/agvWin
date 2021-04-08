@@ -1,0 +1,12 @@
+d:\agv-combine -target -new\build\gui_connect.dir\release\gui_connect.obj
+d:\agv-combine -target -new\build\cmakefiles\generate.stamp
+d:\agv-combine -target -new\bin\release\gui_connect.exe
+d:\agv-combine -target -new\build\gui_connect.dir\release\gui_connect.tlog\cl.command.1.tlog
+d:\agv-combine -target -new\build\gui_connect.dir\release\gui_connect.tlog\cl.read.1.tlog
+d:\agv-combine -target -new\build\gui_connect.dir\release\gui_connect.tlog\cl.write.1.tlog
+d:\agv-combine -target -new\build\gui_connect.dir\release\gui_connect.tlog\custombuild.command.1.tlog
+d:\agv-combine -target -new\build\gui_connect.dir\release\gui_connect.tlog\custombuild.read.1.tlog
+d:\agv-combine -target -new\build\gui_connect.dir\release\gui_connect.tlog\custombuild.write.1.tlog
+d:\agv-combine -target -new\build\gui_connect.dir\release\gui_connect.tlog\link.command.1.tlog
+d:\agv-combine -target -new\build\gui_connect.dir\release\gui_connect.tlog\link.read.1.tlog
+d:\agv-combine -target -new\build\gui_connect.dir\release\gui_connect.tlog\link.write.1.tlog

@@ -1,0 +1,18 @@
+﻿生成启动时间为 2021/4/7 17:50:20。
+     1>项目“D:\agv-combine -target -new\build\route_planner\route_planner.vcxproj”在节点 7 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/agv-combine -target -new/route_planner/CMakeLists.txt
+       ClCompile:
+         D:\Software\vs2013\VC\bin\CL.exe /c /I"D:\agv-combine -target -new\AGVtoolkit2013\include" /I"D:\agv-combine -target -new\msg" /I"D:\agv-combine -target -new\slam" /I"D:\agv-combine -target -new" /I"D:\agv-combine -target -new\route_planner" /nologo /W1 /WX- /O2 /Ob2 /Oy- /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"route_planner.dir\Release\\" /Fd"route_planner.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  /Mt "D:\agv-combine -target -new\route_planner\route_planner.cpp"
+     1>cl : 命令行 warning D9002: 忽略未知选项“/Mt”
+         route_planner.cpp
+     1>d:\agv-combine -target -new\route_planner\route_planner.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+       Lib:
+         D:\Software\vs2013\VC\bin\Lib.exe /OUT:"D:\agv-combine -target -new\bin\lib\Release\route_planner.lib" /NOLOGO  /machine:X86 route_planner.dir\Release\route_planner.obj
+         route_planner.vcxproj -> D:\agv-combine -target -new\bin\lib\Release\route_planner.lib
+     1>已完成生成项目“D:\agv-combine -target -new\build\route_planner\route_planner.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.26

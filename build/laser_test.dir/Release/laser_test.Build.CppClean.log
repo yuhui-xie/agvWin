@@ -1,0 +1,12 @@
+d:\agv-combine -target -new\build\laser_test.dir\release\laser_test.obj
+d:\agv-combine -target -new\build\cmakefiles\generate.stamp
+d:\agv-combine -target -new\bin\release\laser_test.exe
+d:\agv-combine -target -new\build\laser_test.dir\release\laser_test.tlog\cl.command.1.tlog
+d:\agv-combine -target -new\build\laser_test.dir\release\laser_test.tlog\cl.read.1.tlog
+d:\agv-combine -target -new\build\laser_test.dir\release\laser_test.tlog\cl.write.1.tlog
+d:\agv-combine -target -new\build\laser_test.dir\release\laser_test.tlog\custombuild.command.1.tlog
+d:\agv-combine -target -new\build\laser_test.dir\release\laser_test.tlog\custombuild.read.1.tlog
+d:\agv-combine -target -new\build\laser_test.dir\release\laser_test.tlog\custombuild.write.1.tlog
+d:\agv-combine -target -new\build\laser_test.dir\release\laser_test.tlog\link.command.1.tlog
+d:\agv-combine -target -new\build\laser_test.dir\release\laser_test.tlog\link.read.1.tlog
+d:\agv-combine -target -new\build\laser_test.dir\release\laser_test.tlog\link.write.1.tlog

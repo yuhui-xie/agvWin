@@ -1,0 +1,68 @@
+﻿生成启动时间为 2021/3/28 17:55:18。
+     1>项目“D:\agv-combine -target -new\build\stdmsg.vcxproj”在节点 11 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/agv-combine -target -new/CMakeLists.txt
+       ClCompile:
+         D:\Software\vs2013\VC\bin\CL.exe /c /I"D:\agv-combine -target -new\AGVtoolkit2013\include" /I"D:\agv-combine -target -new\msg" /I"D:\agv-combine -target -new\slam" /I"D:\agv-combine -target -new" /Zi /nologo /W1 /WX- /Od /Ob0 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"stdmsg.dir\Debug\\" /Fd"stdmsg.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  /Mt "D:\agv-combine -target -new\msg\stdmsg.cc"
+     1>cl : 命令行 warning D9002: 忽略未知选项“/Mt”
+         stdmsg.cc
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>D:\Software\vs2013\VC\include\xutility(2132): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 D:\Software\vs2013\VC\include\xutility(2113) : 参见“std::_Copy_impl”的声明
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1316): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const Element*,Element*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=google::protobuf::uint64 *
+         ,            Element=google::protobuf::uint64
+         ,            _InIt=const google::protobuf::uint64 *
+                 ]
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1315): 编译类 模板 成员函数“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element *,const Element *,int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1308): 参见对正在编译的函数 模板 实例化“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element *,const Element *,int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1308): 参见对正在编译的类 模板 实例化“google::protobuf::internal::ElementCopier<Element,false>”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1307): 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element *,const Element *,int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1302): 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element *,const Element *,int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1301): 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element *,Element *,int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1275): 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element *,Element *,int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1239): 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::Reserve(int)”时
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1079): 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::Reserve(int)”的引用
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/repeated_field.h(1024): 编译类 模板 成员函数“int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const”时
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/wire_format_lite_inl.h(278): 参见对正在编译的函数 模板 实例化“int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const”的引用
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/wire_format_lite_inl.h(258): 参见对正在编译的类 模板 实例化“google::protobuf::RepeatedField<google::protobuf::uint64>”的引用
+                 D:\agv-combine -target -new\AGVtoolkit2013\include\google/protobuf/wire_format_lite_inl.h(311): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::uint64> *)”的引用
+                 D:\Software\vs2013\VC\include\xutility(2113) : 参见“std::_Copy_impl”的声明
+       Lib:
+         D:\Software\vs2013\VC\bin\Lib.exe /OUT:"D:\agv-combine -target -new\bin\lib\Debug\stdmsg.lib" /NOLOGO  /machine:X86 stdmsg.dir\Debug\stdmsg.obj
+         stdmsg.vcxproj -> D:\agv-combine -target -new\bin\lib\Debug\stdmsg.lib
+     1>已完成生成项目“D:\agv-combine -target -new\build\stdmsg.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.62

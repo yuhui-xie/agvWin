@@ -1,0 +1,12 @@
+d:\agv-combine -target -new\build\stdmsg.dir\release\stdmsg.obj
+d:\agv-combine -target -new\build\cmakefiles\generate.stamp
+d:\agv-combine -target -new\bin\lib\release\stdmsg.lib
+d:\agv-combine -target -new\build\stdmsg.dir\release\stdmsg.tlog\cl.command.1.tlog
+d:\agv-combine -target -new\build\stdmsg.dir\release\stdmsg.tlog\cl.read.1.tlog
+d:\agv-combine -target -new\build\stdmsg.dir\release\stdmsg.tlog\cl.write.1.tlog
+d:\agv-combine -target -new\build\stdmsg.dir\release\stdmsg.tlog\custombuild.command.1.tlog
+d:\agv-combine -target -new\build\stdmsg.dir\release\stdmsg.tlog\custombuild.read.1.tlog
+d:\agv-combine -target -new\build\stdmsg.dir\release\stdmsg.tlog\custombuild.write.1.tlog
+d:\agv-combine -target -new\build\stdmsg.dir\release\stdmsg.tlog\lib-link.read.1.tlog
+d:\agv-combine -target -new\build\stdmsg.dir\release\stdmsg.tlog\lib-link.write.1.tlog
+d:\agv-combine -target -new\build\stdmsg.dir\release\stdmsg.tlog\lib.command.1.tlog

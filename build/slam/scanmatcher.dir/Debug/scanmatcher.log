@@ -1,0 +1,26 @@
+﻿生成启动时间为 2021/3/28 17:55:17。
+     1>项目“D:\agv-combine -target -new\build\slam\scanmatcher.vcxproj”在节点 7 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/agv-combine -target -new/slam/CMakeLists.txt
+       ClCompile:
+         D:\Software\vs2013\VC\bin\CL.exe /c /I"D:\agv-combine -target -new\AGVtoolkit2013\include" /I"D:\agv-combine -target -new\msg" /I"D:\agv-combine -target -new\slam" /I"D:\agv-combine -target -new" /I"D:\agv-combine -target -new\slam\utils" /I"D:\agv-combine -target -new\slam\sensor" /I"D:\agv-combine -target -new\slam\log" /I"D:\agv-combine -target -new\slam\configfile" /I"D:\agv-combine -target -new\slam\scanmatcher" /Zi /nologo /W1 /WX- /Od /Ob0 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"scanmatcher.dir\Debug\\" /Fd"scanmatcher.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  -O3 "D:\agv-combine -target -new\slam\scanmatcher\smmap.cpp" "D:\agv-combine -target -new\slam\scanmatcher\scanmatcher.cpp" "D:\agv-combine -target -new\slam\scanmatcher\scanmatcherprocessor.cpp" "D:\agv-combine -target -new\slam\scanmatcher\eig3.cpp"
+     1>cl : 命令行 warning D9002: 忽略未知选项“-O3”
+         smmap.cpp
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         scanmatcher.cpp
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         scanmatcherprocessor.cpp
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         eig3.cpp
+         正在生成代码...
+       Lib:
+         D:\Software\vs2013\VC\bin\Lib.exe /OUT:"D:\agv-combine -target -new\bin\lib\Debug\scanmatcher.lib" /NOLOGO  /machine:X86 scanmatcher.dir\Debug\smmap.obj
+         scanmatcher.dir\Debug\scanmatcher.obj
+         scanmatcher.dir\Debug\scanmatcherprocessor.obj
+         scanmatcher.dir\Debug\eig3.obj
+         scanmatcher.vcxproj -> D:\agv-combine -target -new\bin\lib\Debug\scanmatcher.lib
+     1>已完成生成项目“D:\agv-combine -target -new\build\slam\scanmatcher.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.85

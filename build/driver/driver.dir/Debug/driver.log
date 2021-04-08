@@ -1,0 +1,25 @@
+﻿生成启动时间为 2021/3/28 17:55:17。
+     1>项目“D:\agv-combine -target -new\build\driver\driver.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/agv-combine -target -new/driver/CMakeLists.txt
+       ClCompile:
+         D:\Software\vs2013\VC\bin\CL.exe /c /I"D:\agv-combine -target -new\AGVtoolkit2013\include" /I"D:\agv-combine -target -new\msg" /I"D:\agv-combine -target -new\slam" /I"D:\agv-combine -target -new" /I"D:\Python-2.7.5\include" /I"D:\agv-combine -target -new\driver\LaserSrc" /Zi /nologo /W1 /WX- /Od /Ob0 /Oy- /D PYTHON_PLUGIN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"driver.dir\Debug\\" /Fd"driver.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  -O3 "D:\agv-combine -target -new\driver\motion.cpp" "D:\agv-combine -target -new\driver\Laser.cpp" "D:\agv-combine -target -new\driver\net\sockets.cpp" "D:\agv-combine -target -new\driver\LaserSrc\Urg_driver.cpp" "D:\agv-combine -target -new\driver\LaserSrc\ticks.cpp"
+     1>cl : 命令行 warning D9002: 忽略未知选项“-O3”
+         motion.cpp
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>d:\python-2.7.5\include\pymath.h(22): warning C4273: “round”: dll 链接不一致
+                 D:\Software\vs2013\VC\include\math.h(516) : 参见“round”的前一个定义
+         Laser.cpp
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         sockets.cpp
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         Urg_driver.cpp
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         ticks.cpp
+         正在生成代码...
+     1>d:\agv-combine -target -new\driver\net\sockets.cpp(81): error C4716: “TD::Socket::socket_restart”: 必须返回一个值
+     1>已完成生成项目“D:\agv-combine -target -new\build\driver\driver.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.68

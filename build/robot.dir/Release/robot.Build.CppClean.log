@@ -1,0 +1,12 @@
+d:\agv-combine -target -new\build\robot.dir\release\robot.obj
+d:\agv-combine -target -new\build\cmakefiles\generate.stamp
+d:\agv-combine -target -new\bin\lib\release\robot.lib
+d:\agv-combine -target -new\build\robot.dir\release\robot.tlog\cl.command.1.tlog
+d:\agv-combine -target -new\build\robot.dir\release\robot.tlog\cl.read.1.tlog
+d:\agv-combine -target -new\build\robot.dir\release\robot.tlog\cl.write.1.tlog
+d:\agv-combine -target -new\build\robot.dir\release\robot.tlog\custombuild.command.1.tlog
+d:\agv-combine -target -new\build\robot.dir\release\robot.tlog\custombuild.read.1.tlog
+d:\agv-combine -target -new\build\robot.dir\release\robot.tlog\custombuild.write.1.tlog
+d:\agv-combine -target -new\build\robot.dir\release\robot.tlog\lib-link.read.1.tlog
+d:\agv-combine -target -new\build\robot.dir\release\robot.tlog\lib-link.write.1.tlog
+d:\agv-combine -target -new\build\robot.dir\release\robot.tlog\lib.command.1.tlog

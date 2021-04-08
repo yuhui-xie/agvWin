@@ -1,0 +1,16 @@
+d:\agv-combine -target -new\build\global_plan\global_plan.dir\release\global_plan.obj
+d:\agv-combine -target -new\build\global_plan\global_plan.dir\release\map_modify.obj
+d:\agv-combine -target -new\build\global_plan\global_plan.dir\release\trajectory.obj
+d:\agv-combine -target -new\build\global_plan\global_plan.dir\release\planner.obj
+d:\agv-combine -target -new\build\global_plan\global_plan.dir\release\conventional.obj
+d:\agv-combine -target -new\build\global_plan\cmakefiles\generate.stamp
+d:\agv-combine -target -new\bin\lib\release\global_plan.lib
+d:\agv-combine -target -new\build\global_plan\global_plan.dir\release\global_plan.tlog\cl.command.1.tlog
+d:\agv-combine -target -new\build\global_plan\global_plan.dir\release\global_plan.tlog\cl.read.1.tlog
+d:\agv-combine -target -new\build\global_plan\global_plan.dir\release\global_plan.tlog\cl.write.1.tlog
+d:\agv-combine -target -new\build\global_plan\global_plan.dir\release\global_plan.tlog\custombuild.command.1.tlog
+d:\agv-combine -target -new\build\global_plan\global_plan.dir\release\global_plan.tlog\custombuild.read.1.tlog
+d:\agv-combine -target -new\build\global_plan\global_plan.dir\release\global_plan.tlog\custombuild.write.1.tlog
+d:\agv-combine -target -new\build\global_plan\global_plan.dir\release\global_plan.tlog\lib-link.read.1.tlog
+d:\agv-combine -target -new\build\global_plan\global_plan.dir\release\global_plan.tlog\lib-link.write.1.tlog
+d:\agv-combine -target -new\build\global_plan\global_plan.dir\release\global_plan.tlog\lib.command.1.tlog

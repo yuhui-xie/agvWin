@@ -1,0 +1,19 @@
+﻿生成启动时间为 2021/4/7 19:05:08。
+     1>项目“D:\agv-combine -target -new\build\robot.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/agv-combine -target -new/CMakeLists.txt
+       ClCompile:
+         D:\Software\vs2013\VC\bin\CL.exe /c /I"D:\agv-combine -target -new\AGVtoolkit2013\include" /I"D:\agv-combine -target -new\msg" /I"D:\agv-combine -target -new\slam" /I"D:\agv-combine -target -new" /nologo /W1 /WX- /O2 /Ob2 /Oy- /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"robot.dir\Release\\" /Fd"robot.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  /Mt "D:\agv-combine -target -new\robot.cpp"
+     1>cl : 命令行 warning D9002: 忽略未知选项“/Mt”
+         robot.cpp
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>d:\agv-combine -target -new\robot.h(22): warning C4005: “EXPORT”: 宏重定义
+                 D:\agv-combine -target -new\robot.cpp(1) : 参见“EXPORT”的前一个定义
+       Lib:
+         D:\Software\vs2013\VC\bin\Lib.exe /OUT:"D:\agv-combine -target -new\bin\lib\Release\robot.lib" /NOLOGO  /machine:X86 robot.dir\Release\robot.obj
+         robot.vcxproj -> D:\agv-combine -target -new\bin\lib\Release\robot.lib
+     1>已完成生成项目“D:\agv-combine -target -new\build\robot.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.36

@@ -1,0 +1,11 @@
+d:\agv-combine -target -new\build\cmakefiles\generate.stamp
+d:\agv-combine -target -new\build\global_plan\cmakefiles\generate.stamp
+d:\agv-combine -target -new\build\local_plan\cmakefiles\generate.stamp
+d:\agv-combine -target -new\build\localize\cmakefiles\generate.stamp
+d:\agv-combine -target -new\build\localize\icp\cmakefiles\generate.stamp
+d:\agv-combine -target -new\build\driver\cmakefiles\generate.stamp
+d:\agv-combine -target -new\build\slam\cmakefiles\generate.stamp
+d:\agv-combine -target -new\build\route_planner\cmakefiles\generate.stamp
+d:\agv-combine -target -new\build\win32\release\zero_check\zero_check.tlog\custombuild.command.1.tlog
+d:\agv-combine -target -new\build\win32\release\zero_check\zero_check.tlog\custombuild.read.1.tlog
+d:\agv-combine -target -new\build\win32\release\zero_check\zero_check.tlog\custombuild.write.1.tlog

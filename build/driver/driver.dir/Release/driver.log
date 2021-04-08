@@ -1,0 +1,51 @@
+﻿生成启动时间为 2021/4/7 19:05:03。
+     1>项目“D:\agv-combine -target -new\build\driver\driver.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/agv-combine -target -new/driver/CMakeLists.txt
+       ClCompile:
+         D:\Software\vs2013\VC\bin\CL.exe /c /I"D:\agv-combine -target -new\AGVtoolkit2013\include" /I"D:\agv-combine -target -new\msg" /I"D:\agv-combine -target -new\slam" /I"D:\agv-combine -target -new" /I"D:\Python-2.7.5\include" /I"D:\agv-combine -target -new\driver\LaserSrc" /nologo /W1 /WX- /O2 /Ob2 /Oy- /D NDEBUG /D PYTHON_PLUGIN /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"driver.dir\Release\\" /Fd"driver.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  -O3 "D:\agv-combine -target -new\driver\motion.cpp" "D:\agv-combine -target -new\driver\Laser.cpp" "D:\agv-combine -target -new\driver\net\sockets.cpp" "D:\agv-combine -target -new\driver\LaserSrc\Urg_driver.cpp" "D:\agv-combine -target -new\driver\LaserSrc\ticks.cpp"
+     1>cl : 命令行 warning D9002: 忽略未知选项“-O3”
+         motion.cpp
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>d:\python-2.7.5\include\pymath.h(22): warning C4273: “round”: dll 链接不一致
+                 D:\Software\vs2013\VC\include\math.h(516) : 参见“round”的前一个定义
+         Laser.cpp
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         sockets.cpp
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         Urg_driver.cpp
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         ticks.cpp
+         正在生成代码...
+     1>d:\agv-combine -target -new\driver\net\sockets.cpp(81): warning C4715: “TD::Socket::socket_restart”: 不是所有的控件路径都返回值
+         D:\Software\vs2013\VC\bin\CL.exe /c /I"D:\agv-combine -target -new\AGVtoolkit2013\include" /I"D:\agv-combine -target -new\msg" /I"D:\agv-combine -target -new\slam" /I"D:\agv-combine -target -new" /I"D:\Python-2.7.5\include" /I"D:\agv-combine -target -new\driver\LaserSrc" /nologo /W1 /WX- /O2 /Ob2 /Oy- /D NDEBUG /D PYTHON_PLUGIN /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"driver.dir\Release\\" /Fd"driver.dir\Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt  -O3 "D:\agv-combine -target -new\driver\LaserSrc\urg_connection.c" "D:\agv-combine -target -new\driver\LaserSrc\urg_debug.c" "D:\agv-combine -target -new\driver\LaserSrc\urg_ring_buffer.c" "D:\agv-combine -target -new\driver\LaserSrc\urg_sensor.c" "D:\agv-combine -target -new\driver\LaserSrc\urg_serial.c" "D:\agv-combine -target -new\driver\LaserSrc\urg_serial_utils.c" "D:\agv-combine -target -new\driver\LaserSrc\urg_tcpclient.c" "D:\agv-combine -target -new\driver\LaserSrc\urg_utils.c"
+     1>cl : 命令行 warning D9002: 忽略未知选项“-O3”
+         urg_connection.c
+         urg_debug.c
+         urg_ring_buffer.c
+         urg_sensor.c
+         urg_serial.c
+         urg_serial_utils.c
+         urg_tcpclient.c
+         urg_utils.c
+         正在生成代码...
+       Lib:
+         D:\Software\vs2013\VC\bin\Lib.exe /OUT:"D:\agv-combine -target -new\bin\lib\Release\driver.lib" /NOLOGO  /machine:X86 driver.dir\Release\motion.obj
+         driver.dir\Release\Laser.obj
+         driver.dir\Release\sockets.obj
+         driver.dir\Release\Urg_driver.obj
+         driver.dir\Release\ticks.obj
+         driver.dir\Release\urg_connection.obj
+         driver.dir\Release\urg_debug.obj
+         driver.dir\Release\urg_ring_buffer.obj
+         driver.dir\Release\urg_sensor.obj
+         driver.dir\Release\urg_serial.obj
+         driver.dir\Release\urg_serial_utils.obj
+         driver.dir\Release\urg_tcpclient.obj
+         driver.dir\Release\urg_utils.obj
+         driver.vcxproj -> D:\agv-combine -target -new\bin\lib\Release\driver.lib
+     1>已完成生成项目“D:\agv-combine -target -new\build\driver\driver.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.06

@@ -1,0 +1,15 @@
+d:\agv-combine -target -new\build\localizer.dir\release\localizer.obj
+d:\agv-combine -target -new\build\cmakefiles\generate.stamp
+d:\agv-combine -target -new\bin\release\localizer.exe
+d:\agv-combine -target -new\bin\lib\release\localizer.lib
+d:\agv-combine -target -new\bin\lib\release\localizer.exp
+d:\agv-combine -target -new\build\localizer.dir\release\localizer.tlog\cl.command.1.tlog
+d:\agv-combine -target -new\build\localizer.dir\release\localizer.tlog\cl.read.1.tlog
+d:\agv-combine -target -new\build\localizer.dir\release\localizer.tlog\cl.write.1.tlog
+d:\agv-combine -target -new\build\localizer.dir\release\localizer.tlog\custombuild.command.1.tlog
+d:\agv-combine -target -new\build\localizer.dir\release\localizer.tlog\custombuild.read.1.tlog
+d:\agv-combine -target -new\build\localizer.dir\release\localizer.tlog\custombuild.write.1.tlog
+d:\agv-combine -target -new\build\localizer.dir\release\localizer.tlog\link.command.1.tlog
+d:\agv-combine -target -new\build\localizer.dir\release\localizer.tlog\link.read.1.tlog
+d:\agv-combine -target -new\build\localizer.dir\release\localizer.tlog\link.write.1.tlog
+d:\agv-combine -target -new\build\localizer.dir\release\localizer.tlog\localizer.write.1u.tlog

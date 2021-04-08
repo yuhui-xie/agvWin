@@ -1,0 +1,15 @@
+d:\agv-combine -target -new\build\explore.dir\release\explorer.obj
+d:\agv-combine -target -new\build\cmakefiles\generate.stamp
+d:\agv-combine -target -new\bin\lib\release\explore.lib
+d:\agv-combine -target -new\bin\lib\release\explore.exp
+d:\agv-combine -target -new\bin\release\explore.exe
+d:\agv-combine -target -new\build\explore.dir\release\explore.tlog\cl.command.1.tlog
+d:\agv-combine -target -new\build\explore.dir\release\explore.tlog\cl.read.1.tlog
+d:\agv-combine -target -new\build\explore.dir\release\explore.tlog\cl.write.1.tlog
+d:\agv-combine -target -new\build\explore.dir\release\explore.tlog\custombuild.command.1.tlog
+d:\agv-combine -target -new\build\explore.dir\release\explore.tlog\custombuild.read.1.tlog
+d:\agv-combine -target -new\build\explore.dir\release\explore.tlog\custombuild.write.1.tlog
+d:\agv-combine -target -new\build\explore.dir\release\explore.tlog\explore.write.1u.tlog
+d:\agv-combine -target -new\build\explore.dir\release\explore.tlog\link.command.1.tlog
+d:\agv-combine -target -new\build\explore.dir\release\explore.tlog\link.read.1.tlog
+d:\agv-combine -target -new\build\explore.dir\release\explore.tlog\link.write.1.tlog

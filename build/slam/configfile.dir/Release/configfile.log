@@ -1,0 +1,17 @@
+﻿生成启动时间为 2021/4/7 19:05:03。
+     1>项目“D:\agv-combine -target -new\build\slam\configfile.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/agv-combine -target -new/slam/CMakeLists.txt
+       ClCompile:
+         D:\Software\vs2013\VC\bin\CL.exe /c /I"D:\agv-combine -target -new\AGVtoolkit2013\include" /I"D:\agv-combine -target -new\msg" /I"D:\agv-combine -target -new\slam" /I"D:\agv-combine -target -new" /I"D:\agv-combine -target -new\slam\utils" /I"D:\agv-combine -target -new\slam\sensor" /I"D:\agv-combine -target -new\slam\log" /I"D:\agv-combine -target -new\slam\configfile" /I"D:\agv-combine -target -new\slam\scanmatcher" /nologo /W1 /WX- /O2 /Ob2 /Oy- /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"configfile.dir\Release\\" /Fd"configfile.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  -O3 "D:\agv-combine -target -new\slam\configfile\configfile.cpp"
+     1>cl : 命令行 warning D9002: 忽略未知选项“-O3”
+         configfile.cpp
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+       Lib:
+         D:\Software\vs2013\VC\bin\Lib.exe /OUT:"D:\agv-combine -target -new\bin\lib\Release\configfile.lib" /NOLOGO  /machine:X86 configfile.dir\Release\configfile.obj
+         configfile.vcxproj -> D:\agv-combine -target -new\bin\lib\Release\configfile.lib
+     1>已完成生成项目“D:\agv-combine -target -new\build\slam\configfile.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.09

@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EE07B94E-33B4-32B5-B4D4-96F3422AB57E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>slam</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\agv-combine -target -new\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">slam.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">slam</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\agv-combine -target -new\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">slam.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">slam</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\agv-combine -target -new\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">slam.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">slam</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\agv-combine -target -new\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">slam.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">slam</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;D:\agv-combine -target -new\slam\utils;D:\agv-combine -target -new\slam\sensor;D:\agv-combine -target -new\slam\log;D:\agv-combine -target -new\slam\configfile;D:\agv-combine -target -new\slam\scanmatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -O3</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>CMAKE_INTDIR="Debug";slam_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;CMAKE_INTDIR=\"Debug\";slam_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;D:\agv-combine -target -new\slam\utils;D:\agv-combine -target -new\slam\sensor;D:\agv-combine -target -new\slam\log;D:\agv-combine -target -new\slam\configfile;D:\agv-combine -target -new\slam\scanmatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;D:\agv-combine -target -new\slam\utils;D:\agv-combine -target -new\slam\sensor;D:\agv-combine -target -new\slam\log;D:\agv-combine -target -new\slam\configfile;D:\agv-combine -target -new\slam\scanmatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\bin\lib\Debug\gridfastslam.lib;..\..\bin\lib\Debug\scanmatcher.lib;..\..\bin\lib\Debug\configfile.lib;..\..\bin\lib\Debug\log.lib;..\..\bin\lib\Debug\sensor.lib;..\..\bin\lib\Debug\utils.lib;node.lib;node.lib;libprotobuf.lib;libzmq.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/agv-combine -target -new/bin/lib;D:/agv-combine -target -new/bin/lib/$(Configuration);D:/agv-combine -target -new;D:/agv-combine -target -new/$(Configuration);D:/agv-combine -target -new/AGVtoolkit2013/lib;D:/agv-combine -target -new/AGVtoolkit2013/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/agv-combine -target -new/bin/lib/Debug/slam.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/agv-combine -target -new/bin/Debug/slam.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;D:\agv-combine -target -new\slam\utils;D:\agv-combine -target -new\slam\sensor;D:\agv-combine -target -new\slam\log;D:\agv-combine -target -new\slam\configfile;D:\agv-combine -target -new\slam\scanmatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -O3</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR="Release";slam_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;CMAKE_INTDIR=\"Release\";slam_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;D:\agv-combine -target -new\slam\utils;D:\agv-combine -target -new\slam\sensor;D:\agv-combine -target -new\slam\log;D:\agv-combine -target -new\slam\configfile;D:\agv-combine -target -new\slam\scanmatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;D:\agv-combine -target -new\slam\utils;D:\agv-combine -target -new\slam\sensor;D:\agv-combine -target -new\slam\log;D:\agv-combine -target -new\slam\configfile;D:\agv-combine -target -new\slam\scanmatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\bin\lib\Release\gridfastslam.lib;..\..\bin\lib\Release\scanmatcher.lib;..\..\bin\lib\Release\configfile.lib;..\..\bin\lib\Release\log.lib;..\..\bin\lib\Release\sensor.lib;..\..\bin\lib\Release\utils.lib;node.lib;node.lib;libprotobuf.lib;libzmq.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/agv-combine -target -new/bin/lib;D:/agv-combine -target -new/bin/lib/$(Configuration);D:/agv-combine -target -new;D:/agv-combine -target -new/$(Configuration);D:/agv-combine -target -new/AGVtoolkit2013/lib;D:/agv-combine -target -new/AGVtoolkit2013/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/agv-combine -target -new/bin/lib/Release/slam.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/agv-combine -target -new/bin/Release/slam.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;D:\agv-combine -target -new\slam\utils;D:\agv-combine -target -new\slam\sensor;D:\agv-combine -target -new\slam\log;D:\agv-combine -target -new\slam\configfile;D:\agv-combine -target -new\slam\scanmatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -O3</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR="MinSizeRel";slam_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";slam_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;D:\agv-combine -target -new\slam\utils;D:\agv-combine -target -new\slam\sensor;D:\agv-combine -target -new\slam\log;D:\agv-combine -target -new\slam\configfile;D:\agv-combine -target -new\slam\scanmatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;D:\agv-combine -target -new\slam\utils;D:\agv-combine -target -new\slam\sensor;D:\agv-combine -target -new\slam\log;D:\agv-combine -target -new\slam\configfile;D:\agv-combine -target -new\slam\scanmatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\bin\lib\MinSizeRel\gridfastslam.lib;..\..\bin\lib\MinSizeRel\scanmatcher.lib;..\..\bin\lib\MinSizeRel\configfile.lib;..\..\bin\lib\MinSizeRel\log.lib;..\..\bin\lib\MinSizeRel\sensor.lib;..\..\bin\lib\MinSizeRel\utils.lib;node.lib;node.lib;libprotobuf.lib;libzmq.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/agv-combine -target -new/bin/lib;D:/agv-combine -target -new/bin/lib/$(Configuration);D:/agv-combine -target -new;D:/agv-combine -target -new/$(Configuration);D:/agv-combine -target -new/AGVtoolkit2013/lib;D:/agv-combine -target -new/AGVtoolkit2013/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/agv-combine -target -new/bin/lib/MinSizeRel/slam.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/agv-combine -target -new/bin/MinSizeRel/slam.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;D:\agv-combine -target -new\slam\utils;D:\agv-combine -target -new\slam\sensor;D:\agv-combine -target -new\slam\log;D:\agv-combine -target -new\slam\configfile;D:\agv-combine -target -new\slam\scanmatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -O3</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR="RelWithDebInfo";slam_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";slam_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;D:\agv-combine -target -new\slam\utils;D:\agv-combine -target -new\slam\sensor;D:\agv-combine -target -new\slam\log;D:\agv-combine -target -new\slam\configfile;D:\agv-combine -target -new\slam\scanmatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\agv-combine -target -new\AGVtoolkit2013\include;D:\agv-combine -target -new\msg;D:\agv-combine -target -new\slam;D:\agv-combine -target -new;D:\agv-combine -target -new\slam\utils;D:\agv-combine -target -new\slam\sensor;D:\agv-combine -target -new\slam\log;D:\agv-combine -target -new\slam\configfile;D:\agv-combine -target -new\slam\scanmatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\bin\lib\RelWithDebInfo\gridfastslam.lib;..\..\bin\lib\RelWithDebInfo\scanmatcher.lib;..\..\bin\lib\RelWithDebInfo\configfile.lib;..\..\bin\lib\RelWithDebInfo\log.lib;..\..\bin\lib\RelWithDebInfo\sensor.lib;..\..\bin\lib\RelWithDebInfo\utils.lib;node.lib;node.lib;libprotobuf.lib;libzmq.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/agv-combine -target -new/bin/lib;D:/agv-combine -target -new/bin/lib/$(Configuration);D:/agv-combine -target -new;D:/agv-combine -target -new/$(Configuration);D:/agv-combine -target -new/AGVtoolkit2013/lib;D:/agv-combine -target -new/AGVtoolkit2013/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/agv-combine -target -new/bin/lib/RelWithDebInfo/slam.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/agv-combine -target -new/bin/RelWithDebInfo/slam.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\agv-combine -target -new\slam\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/agv-combine -target -new/slam/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\Software\CMake\cmake-3.18.6-win64-x64\bin\cmake.exe "-SD:/agv-combine -target -new" "-BD:/agv-combine -target -new/build" --check-stamp-file "D:/agv-combine -target -new/build/slam/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\agv-combine -target -new\build\slam\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/agv-combine -target -new/slam/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\Software\CMake\cmake-3.18.6-win64-x64\bin\cmake.exe "-SD:/agv-combine -target -new" "-BD:/agv-combine -target -new/build" --check-stamp-file "D:/agv-combine -target -new/build/slam/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\agv-combine -target -new\build\slam\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/agv-combine -target -new/slam/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\Software\CMake\cmake-3.18.6-win64-x64\bin\cmake.exe "-SD:/agv-combine -target -new" "-BD:/agv-combine -target -new/build" --check-stamp-file "D:/agv-combine -target -new/build/slam/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\agv-combine -target -new\build\slam\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/agv-combine -target -new/slam/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\Software\CMake\cmake-3.18.6-win64-x64\bin\cmake.exe "-SD:/agv-combine -target -new" "-BD:/agv-combine -target -new/build" --check-stamp-file "D:/agv-combine -target -new/build/slam/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\agv-combine -target -new\build\slam\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\agv-combine -target -new\slam\slam.cpp" />
+    <ClCompile Include="D:\agv-combine -target -new\msg\stdmsg.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\agv-combine -target -new\build\ZERO_CHECK.vcxproj">
+      <Project>{9164619B-68B2-3D8F-AF1F-1E67EBBDE38D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\agv-combine -target -new\build\slam\configfile.vcxproj">
+      <Project>{27FCDA42-AC2C-39E7-AB0F-8B3F1A3A6889}</Project>
+      <Name>configfile</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\agv-combine -target -new\build\slam\gridfastslam.vcxproj">
+      <Project>{38D83F00-552A-3181-B143-87C44806AAC8}</Project>
+      <Name>gridfastslam</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\agv-combine -target -new\build\slam\log.vcxproj">
+      <Project>{503962B4-9BA6-3782-9F22-96417EDE1C45}</Project>
+      <Name>log</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\agv-combine -target -new\build\slam\scanmatcher.vcxproj">
+      <Project>{2977FB2E-4CDD-33CA-A1DE-B09953B4B7BC}</Project>
+      <Name>scanmatcher</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\agv-combine -target -new\build\slam\sensor.vcxproj">
+      <Project>{2A2A479C-9F67-3405-9D9F-5F7AA109F36E}</Project>
+      <Name>sensor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\agv-combine -target -new\build\slam\utils.vcxproj">
+      <Project>{5D44B968-1800-3F0C-9B0B-3EBE1CEFFAB3}</Project>
+      <Name>utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

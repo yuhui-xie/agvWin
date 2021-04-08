@@ -1,0 +1,8 @@
+D:/agv-combine -target -new/build/CMakeFiles/generate.stamp
+D:/agv-combine -target -new/build/global_plan/CMakeFiles/generate.stamp
+D:/agv-combine -target -new/build/local_plan/CMakeFiles/generate.stamp
+D:/agv-combine -target -new/build/localize/CMakeFiles/generate.stamp
+D:/agv-combine -target -new/build/localize/icp/CMakeFiles/generate.stamp
+D:/agv-combine -target -new/build/driver/CMakeFiles/generate.stamp
+D:/agv-combine -target -new/build/slam/CMakeFiles/generate.stamp
+D:/agv-combine -target -new/build/route_planner/CMakeFiles/generate.stamp

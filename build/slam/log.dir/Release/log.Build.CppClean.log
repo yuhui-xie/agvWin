@@ -1,0 +1,15 @@
+d:\agv-combine -target -new\build\slam\log.dir\release\sensorstream.obj
+d:\agv-combine -target -new\build\slam\log.dir\release\sensorlog.obj
+d:\agv-combine -target -new\build\slam\log.dir\release\carmenconfiguration.obj
+d:\agv-combine -target -new\build\slam\log.dir\release\configuration.obj
+d:\agv-combine -target -new\build\slam\cmakefiles\generate.stamp
+d:\agv-combine -target -new\bin\lib\release\log.lib
+d:\agv-combine -target -new\build\slam\log.dir\release\log.tlog\cl.command.1.tlog
+d:\agv-combine -target -new\build\slam\log.dir\release\log.tlog\cl.read.1.tlog
+d:\agv-combine -target -new\build\slam\log.dir\release\log.tlog\cl.write.1.tlog
+d:\agv-combine -target -new\build\slam\log.dir\release\log.tlog\custombuild.command.1.tlog
+d:\agv-combine -target -new\build\slam\log.dir\release\log.tlog\custombuild.read.1.tlog
+d:\agv-combine -target -new\build\slam\log.dir\release\log.tlog\custombuild.write.1.tlog
+d:\agv-combine -target -new\build\slam\log.dir\release\log.tlog\lib-link.read.1.tlog
+d:\agv-combine -target -new\build\slam\log.dir\release\log.tlog\lib-link.write.1.tlog
+d:\agv-combine -target -new\build\slam\log.dir\release\log.tlog\lib.command.1.tlog

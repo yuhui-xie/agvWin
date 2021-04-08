@@ -1,0 +1,12 @@
+d:\agv-combine -target -new\build\route_planner\astar.dir\release\astar.obj
+d:\agv-combine -target -new\build\route_planner\cmakefiles\generate.stamp
+d:\agv-combine -target -new\bin\lib\release\astar.lib
+d:\agv-combine -target -new\build\route_planner\astar.dir\release\astar.tlog\cl.command.1.tlog
+d:\agv-combine -target -new\build\route_planner\astar.dir\release\astar.tlog\cl.read.1.tlog
+d:\agv-combine -target -new\build\route_planner\astar.dir\release\astar.tlog\cl.write.1.tlog
+d:\agv-combine -target -new\build\route_planner\astar.dir\release\astar.tlog\custombuild.command.1.tlog
+d:\agv-combine -target -new\build\route_planner\astar.dir\release\astar.tlog\custombuild.read.1.tlog
+d:\agv-combine -target -new\build\route_planner\astar.dir\release\astar.tlog\custombuild.write.1.tlog
+d:\agv-combine -target -new\build\route_planner\astar.dir\release\astar.tlog\lib-link.read.1.tlog
+d:\agv-combine -target -new\build\route_planner\astar.dir\release\astar.tlog\lib-link.write.1.tlog
+d:\agv-combine -target -new\build\route_planner\astar.dir\release\astar.tlog\lib.command.1.tlog

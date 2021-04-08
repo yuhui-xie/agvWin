@@ -1,0 +1,11 @@
+﻿生成启动时间为 2021/4/7 19:05:52。
+     1>项目“D:\agv-combine -target -new\build\localizer.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Software\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\agv-combine -target -new\bin\Release\localizer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:/agv-combine -target -new/bin/lib" /LIBPATH:"D:/agv-combine -target -new/bin/lib/Release" /LIBPATH:"D:/agv-combine -target -new" /LIBPATH:"D:/agv-combine -target -new/Release" /LIBPATH:"D:/agv-combine -target -new/AGVtoolkit2013/lib" /LIBPATH:"D:/agv-combine -target -new/AGVtoolkit2013/lib/Release" /LIBPATH:"D:\agv-combine -target -new\yaml-cpp\lib" ..\bin\lib\Release\localize.lib node.lib libprotobuf.lib libzmq.lib ..\bin\lib\Release\robot.lib ..\bin\lib\Release\slam.lib ..\bin\lib\Release\stdmsg.lib icp.lib ..\bin\lib\Release\driver.lib "D:\Python-2.7.5\libs\python27.lib" ..\bin\lib\Release\gridfastslam.lib ..\bin\lib\Release\scanmatcher.lib ..\bin\lib\Release\configfile.lib ..\bin\lib\Release\log.lib ..\bin\lib\Release\sensor.lib ..\bin\lib\Release\utils.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "libyaml-cppmd.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/agv-combine -target -new/bin/Release/localizer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/agv-combine -target -new/bin/lib/Release/localizer.lib" /MACHINE:X86 /SAFESEH  /machine:X86 localizer.dir\Release\localizer.obj
+            正在创建库 D:/agv-combine -target -new/bin/lib/Release/localizer.lib 和对象 D:/agv-combine -target -new/bin/lib/Release/localizer.exp
+         localizer.vcxproj -> D:\agv-combine -target -new\bin\Release\localizer.exe
+     1>已完成生成项目“D:\agv-combine -target -new\build\localizer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.64

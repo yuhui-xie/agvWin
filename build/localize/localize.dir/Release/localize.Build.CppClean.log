@@ -1,0 +1,15 @@
+d:\agv-combine -target -new\build\localize\localize.dir\release\localize.obj
+d:\agv-combine -target -new\build\localize\localize.dir\release\localizecore.obj
+d:\agv-combine -target -new\build\localize\localize.dir\release\localize_motion.obj
+d:\agv-combine -target -new\build\localize\localize.dir\release\likelihood_map.obj
+d:\agv-combine -target -new\build\localize\cmakefiles\generate.stamp
+d:\agv-combine -target -new\bin\lib\release\localize.lib
+d:\agv-combine -target -new\build\localize\localize.dir\release\localize.tlog\cl.command.1.tlog
+d:\agv-combine -target -new\build\localize\localize.dir\release\localize.tlog\cl.read.1.tlog
+d:\agv-combine -target -new\build\localize\localize.dir\release\localize.tlog\cl.write.1.tlog
+d:\agv-combine -target -new\build\localize\localize.dir\release\localize.tlog\custombuild.command.1.tlog
+d:\agv-combine -target -new\build\localize\localize.dir\release\localize.tlog\custombuild.read.1.tlog
+d:\agv-combine -target -new\build\localize\localize.dir\release\localize.tlog\custombuild.write.1.tlog
+d:\agv-combine -target -new\build\localize\localize.dir\release\localize.tlog\lib-link.read.1.tlog
+d:\agv-combine -target -new\build\localize\localize.dir\release\localize.tlog\lib-link.write.1.tlog
+d:\agv-combine -target -new\build\localize\localize.dir\release\localize.tlog\lib.command.1.tlog

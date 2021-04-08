@@ -1,0 +1,20 @@
+﻿生成启动时间为 2021/4/7 17:50:24。
+     1>项目“D:\agv-combine -target -new\build\explore.vcxproj”在节点 10 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/agv-combine -target -new/CMakeLists.txt
+       ClCompile:
+         D:\Software\vs2013\VC\bin\CL.exe /c /I"D:\agv-combine -target -new\AGVtoolkit2013\include" /I"D:\agv-combine -target -new\msg" /I"D:\agv-combine -target -new\slam" /I"D:\agv-combine -target -new" /nologo /W1 /WX- /O2 /Ob2 /Oy- /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"explore.dir\Release\\" /Fd"explore.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  /Mt "D:\agv-combine -target -new\explorer.cpp"
+     1>cl : 命令行 warning D9002: 忽略未知选项“/Mt”
+         explorer.cpp
+     1>D:\Software\vs2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>d:\agv-combine -target -new\robot.h(22): warning C4005: “EXPORT”: 宏重定义
+                 d:\agv-combine -target -new\slam/slam.hpp(19) : 参见“EXPORT”的前一个定义
+       Link:
+         D:\Software\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\agv-combine -target -new\bin\Release\explore.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:/agv-combine -target -new/bin/lib" /LIBPATH:"D:/agv-combine -target -new/bin/lib/Release" /LIBPATH:"D:/agv-combine -target -new" /LIBPATH:"D:/agv-combine -target -new/Release" /LIBPATH:"D:/agv-combine -target -new/AGVtoolkit2013/lib" /LIBPATH:"D:/agv-combine -target -new/AGVtoolkit2013/lib/Release" ..\bin\lib\Release\robot.lib ..\bin\lib\Release\slam.lib ..\bin\lib\Release\driver.lib "D:\Python-2.7.5\libs\python27.lib" ..\bin\lib\Release\stdmsg.lib node.lib libprotobuf.lib libzmq.lib ..\bin\lib\Release\gridfastslam.lib ..\bin\lib\Release\scanmatcher.lib ..\bin\lib\Release\configfile.lib ..\bin\lib\Release\log.lib ..\bin\lib\Release\sensor.lib ..\bin\lib\Release\utils.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/agv-combine -target -new/bin/Release/explore.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/agv-combine -target -new/bin/lib/Release/explore.lib" /MACHINE:X86 /SAFESEH  /machine:X86 explore.dir\Release\explorer.obj
+            正在创建库 D:/agv-combine -target -new/bin/lib/Release/explore.lib 和对象 D:/agv-combine -target -new/bin/lib/Release/explore.exp
+         explore.vcxproj -> D:\agv-combine -target -new\bin\Release\explore.exe
+     1>已完成生成项目“D:\agv-combine -target -new\build\explore.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.45
